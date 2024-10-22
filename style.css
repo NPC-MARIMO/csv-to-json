@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #f4f5f9;
+}
+
+fieldset {
+    border-radius: 20px;
+    padding: 10px 30px 20px 30px;
+    border: 2px solid black;
+}
+
+legend {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    padding: 5px 40px;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.title {
+    font-size: 2rem;
+    padding: 5px 30px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-family: TT Drugs;
+}
+
+.help {
+    font-size: 1.2rem;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.contact {
+    font-size: 1.5rem;
+    padding: 5px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: transparent;
+}
+
+.cj {
+    position: relative;
+    background-color: #f4f5f9;
+    height: 127px;
+    width: 80%;
+    border-radius: 32px;
+    margin-top: -2px;
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-weight: 100;
+}
+
+.csv {
+    width: 20%;
+    height: 80%;
+    background-color: #181818;
+    color: white;
+    margin-top: 20px;
+    border-radius: 30px 90px 0px 0px / 30px 90px 0px 0px;
+    padding: 20px 0 0 40px;
+}
+
+.json {
+    width: 20%;
+    height: 80%;
+    background-color: #181818;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 0 0 40px;
+    border-radius: 78px 30px 0px 43px / 90px 30px 0px 0px;
+}
+
+.converter {
+    display: flex;
+    border-radius: 0 0 20px 20px;
+    background-color: #181818;
+    padding: 30px 10px 30px 10px;
+    height: 380px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 10px 10px;
+    border-right: 1px solid grey;
+    height: 100%;
+    width: 50%;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 10px 30px;
+    height: 100%;
+    width: 50%;
+}
+
+.csv-converter {
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.json-converter {
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+.buttons button  , .buttons input{
+    font-size: 20px;
+    padding: 10px ;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 500;
+}
+.buttons input{
+    border: none;
+    width: 8.6rem;
+    
+}
